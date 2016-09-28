@@ -1,2 +1,0 @@
-#!/usr/bin/with-contenv bash
-[[ ! -d /app/sickrage/.git ]] && git clone https://github.com/SickRage/SickRage.git --depth 2 /app/sickrage

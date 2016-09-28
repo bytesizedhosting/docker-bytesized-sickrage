@@ -1,0 +1,2 @@
+#!/usr/bin/with-contenv bash
+[[ -d /app/sickrage/.git ]] && cd /app/sickrage && git pull
