@@ -8,4 +8,4 @@ EXPOSE 8081
 
 COPY static/ /
 
-VOLUME /data /config /tv
+VOLUME /data /config /media

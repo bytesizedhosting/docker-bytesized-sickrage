@@ -2,6 +2,4 @@
 
 umask 0002
 
-chown -R bytesized:bytesized /app /tv /config
-
 exec s6-setuidgid bytesized python /app/sickrage/SickBeard.py --datadir /config
