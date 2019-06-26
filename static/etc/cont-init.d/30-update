@@ -1,7 +1,7 @@
 #!/usr/bin/with-contenv bash
 
-if [[ -d /app/sickrage/.git ]];then
- echo "Chowning apps and updating Sickrage"
- cd /app/sickrage && git pull
+if [[ -d /app/sickchill/.git ]];then
+ echo "Chowning apps and updating Sickchill"
+ cd /app/sickchill && git pull
  chown -R bytesized:bytesized /app
 fi
